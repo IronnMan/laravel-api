@@ -9,9 +9,12 @@
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
+        "celaraze/dcat-extension-plus": "*@dev",
+        "dcat/laravel-admin": "2.*",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
+        "lake/login-captcha": "^1.0",
         "laravel/framework": "^8.12",
         "laravel/passport": "^10.1",
         "laravel/tinker": "^2.5"
@@ -62,5 +65,11 @@
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
         ]
-    }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "packages/dcat-extension-plus"
+        }
+    ]
 }
