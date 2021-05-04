@@ -1,0 +1,3 @@
+[submodule "packages/dcat-extension-plus"]
+	path = packages/dcat-extension-plus
+	url = git@github.com:IronnMan/dcat-extension-plus.git
